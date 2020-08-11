@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>EDIT DATABASE</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <form action="/list" method="post">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" name="rename" class="form-control" value={{oneProductor.dataValues.name}}>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="number" name="reprice" class="form-control" value="{{oneProductor.dataValues.price}}">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary" style="float: right; margin-right: 10px">TO EDIT</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="row" style="margin-bottom: 20px;">
+        <div class="col" style="text-align: center">
+            <h1>PRODUCTS REGISTRATION</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <form action="/add" method="POST">
+                <div class="row">
+                    <div class="col">
+                        <div class="row" style="margin-bottom: 20px;">
+                            <div class="col">
+                                <label for="name">NAME</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="price">PRICE</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="row" style="margin-bottom: 20px;">
+                                <div class="col">
+                                    <input type="text" name="name" class="form-control" id="name">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="number" name="price" class="form-control" id="price">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-success" onclick="upload()" type="submit">TO REGISTER</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col">
+            <a href="/list"><button class="btn btn-danger">VIEW PRODUCTS</button></a>
+        </div>
+    </div>
+</div>
+<script src="script/script.js"></script>
