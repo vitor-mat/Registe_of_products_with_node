@@ -1,2 +1,3 @@
 # pure_javascript_with_node
-Front end and back end program with javascript.
+
+A register of products with html and css on the front and node on the back end
